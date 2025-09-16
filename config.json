@@ -1,0 +1,24 @@
+{
+  "source_folder": "C:\\inetpub\\logs\\LogFiles",
+  "dest_folder": "C:\\Logs\\Compressed",
+  "log_age_days": 7,
+  "retention_days": 30,
+  "cleanup_old_logs": true,
+  "delete_original_after_compress": false,
+  "compress_current_month": false,
+  "archive_scope": "monthly",
+  "keep_last_n_archives": 0,
+  "dest_file_name_pattern": "iis_logs_%Y_%m",
+  "compression_type": "zip",
+  "max_cpus": 0,
+  "email_notification": {
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "your-email@gmail.com",
+    "password": "your-app-password",
+    "from": "your-email@gmail.com",
+    "to": "admin@company.com",
+    "subject": "IIS Log Compression Report"
+  }
+}
