@@ -122,3 +122,12 @@ go build -o iis-log-compressor.exe main.go
 ## License
 
 This project is provided as-is for educational and commercial use.
+
+## Download
+
+just downlaod the following files to any windows machine to use the application: 
+iis-log-compressor.exe 
+README.txt
+config.json
+
+Note: please read the "README.txt" file for more information. 
